@@ -1,0 +1,21 @@
+public class Main {
+
+    public static String whichBook;
+    static String book;
+    static int Pages;
+
+
+
+    public static String title(String A) {
+        return A;
+    }
+
+    public static int pages(int A) {
+
+        return A;
+    }
+
+    public  static String whichBook(String A){
+        return A;
+    }
+}
