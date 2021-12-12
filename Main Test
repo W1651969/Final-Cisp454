@@ -1,0 +1,22 @@
+import org.testng.annotations.Test;
+
+import static org.testng.AssertJUnit.assertTrue;
+
+class MainTest {
+
+   @Test
+    public void titleTrue(){
+   assertTrue("Harry Potter" == Main.title("harry potter"));
+   }
+
+   @Test
+    public void totalPages(){
+       assertTrue(360 == Main.pages(360));
+   }
+
+   @Test
+    public void whichBook(){
+       assertTrue("Chamber of Secrets" == Main.whichBook("chamber"));
+   }
+
+}
